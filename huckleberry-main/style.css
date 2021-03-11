@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.max-width-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+header > .max-width-wrapper {
+  max-width: 350px;
+}
+.intro-chunk {
+  padding: 4rem 8px;
+}
+.intro-chunk > p {
+  font-size: 1.2rem;
+}
+.intro-chunk > p > strong {
+  color: green;
+}
+
+.title {
+  padding-bottom: 1.5rem;
+}
+
+main {
+  background: hsl(0 0% 75%);
+  border-top: 5px solid black;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  margin: 0 auto;
+  border-bottom: 4px solid black;
+  padding: 0.5rem 1rem;
+}
+
+.indented-heading {
+  background: gold;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 16px;
+  border-bottom: 4px solid goldenrod;
+  margin: 0;
+  margin-left: -2rem;
+}

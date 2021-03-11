@@ -1,0 +1,12 @@
+{
+  "name": "css-for-js-flow-layout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joshua Comeau",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}
