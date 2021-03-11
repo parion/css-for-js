@@ -24,7 +24,7 @@ header > .max-width-wrapper {
   font-size: 1.2rem;
 }
 .intro-chunk > p > strong {
-  color: green;
+  color: hsl(160deg, 100%, 30%);
 }
 
 .title {
@@ -32,7 +32,7 @@ header > .max-width-wrapper {
 }
 
 main {
-  background: hsl(0 0% 75%);
+  background: hsl(0deg, 0%, 60%);
   border-top: 5px solid black;
   padding: 2rem;
 }
@@ -45,11 +45,11 @@ main {
 }
 
 .indented-heading {
-  background: gold;
+  background: hsl(45deg, 100%, 50%);
   width: -moz-fit-content;
   width: fit-content;
   padding: 16px;
-  border-bottom: 4px solid goldenrod;
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
   margin: 0;
   margin-left: -2rem;
 }
